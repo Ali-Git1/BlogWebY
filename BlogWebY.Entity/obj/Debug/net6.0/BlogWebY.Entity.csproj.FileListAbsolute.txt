@@ -1,0 +1,16 @@
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\bin\Debug\net6.0\BlogWebY.Entity.deps.json
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\bin\Debug\net6.0\BlogWebY.Entity.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\bin\Debug\net6.0\BlogWebY.Entity.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\bin\Debug\net6.0\BlogWebY.Core.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\bin\Debug\net6.0\BlogWebY.Core.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.csproj.AssemblyReference.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.AssemblyInfoInputs.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.AssemblyInfo.cs
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.sourcelink.json
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.A11517CA.Up2Date
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\refint\BlogWebY.Entity.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\BlogWebY.Entity.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Entity\obj\Debug\net6.0\ref\BlogWebY.Entity.dll

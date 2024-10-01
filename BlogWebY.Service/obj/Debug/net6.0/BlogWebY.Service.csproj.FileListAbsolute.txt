@@ -1,0 +1,12 @@
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Service.deps.json
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Service.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Service.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.AssemblyInfoInputs.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.AssemblyInfo.cs
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.csproj.CoreCompileInputs.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.sourcelink.json
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\refint\BlogWebY.Service.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\ref\BlogWebY.Service.dll
