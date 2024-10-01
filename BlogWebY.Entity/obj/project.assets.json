@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BlogWebY.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BlogWebY.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogWebY.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BlogWebY.Core/1.0.0": {
+      "type": "project",
+      "path": "../BlogWebY.Core/BlogWebY.Core.csproj",
+      "msbuildProject": "../BlogWebY.Core/BlogWebY.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BlogWebY.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ELViN\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\BlogWebY.Core.csproj": {
+              "projectPath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\BlogWebY.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
