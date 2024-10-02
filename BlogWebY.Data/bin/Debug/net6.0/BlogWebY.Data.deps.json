@@ -10,7 +10,6 @@
         "dependencies": {
           "BlogWebY.Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.33",
-          "Microsoft.EntityFrameworkCore.Design": "6.0.33",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.33"
         },

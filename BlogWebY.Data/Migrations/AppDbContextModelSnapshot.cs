@@ -78,11 +78,11 @@ namespace BlogWebY.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("db93a413-45bc-4dd8-909d-db9557130461"),
+                            Id = new Guid("4d986c08-efae-497a-b215-984194b9bdde"),
                             CategoryId = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             Content = "Asp.net   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(7674),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(425),
                             ImageId = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             IsDeleted = false,
                             Title = "Asp.net Core Deneme Makalesi 1",
@@ -90,11 +90,11 @@ namespace BlogWebY.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("23afc10d-ca86-4e33-b722-b0f9c62e4608"),
+                            Id = new Guid("7bf4dd47-f465-4f84-9ff5-63f86c24a253"),
                             CategoryId = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             Content = "Visual Studio   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(7720),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(475),
                             ImageId = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             IsDeleted = false,
                             Title = "Visual Studio Deneme Makalesi 1",
@@ -143,7 +143,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8203),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(970),
                             IsDeleted = false,
                             Name = "ASP.NET Core"
                         },
@@ -151,7 +151,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8211),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(976),
                             IsDeleted = false,
                             Name = "Visual Studio 2022"
                         });
@@ -202,7 +202,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8483),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(1179),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false
@@ -211,7 +211,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8491),
+                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(1185),
                             FileName = "images/vstest",
                             FileType = "png",
                             IsDeleted = false

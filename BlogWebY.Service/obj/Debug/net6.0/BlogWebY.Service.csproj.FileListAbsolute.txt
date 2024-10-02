@@ -10,3 +10,11 @@ C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\refint\BlogWebY.Service.dll
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.pdb
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\ref\BlogWebY.Service.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Core.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Data.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Entity.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Data.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Entity.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\bin\Debug\net6.0\BlogWebY.Core.pdb
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.Service.csproj.AssemblyReference.cache
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY.Service\obj\Debug\net6.0\BlogWebY.B2C00B46.Up2Date
