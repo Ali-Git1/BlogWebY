@@ -4,6 +4,7 @@ using BlogWebY.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogWebY.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241001175145_Initial2")]
+    partial class Initial2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -62,7 +64,8 @@ namespace BlogWebY.Data.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.Property<int>("ViewCount")
                         .HasColumnType("int");
@@ -74,32 +77,6 @@ namespace BlogWebY.Data.Migrations
                     b.HasIndex("ImageId");
 
                     b.ToTable("Articles");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("db93a413-45bc-4dd8-909d-db9557130461"),
-                            CategoryId = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
-                            Content = "Asp.net   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(7674),
-                            ImageId = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
-                            IsDeleted = false,
-                            Title = "Asp.net Core Deneme Makalesi 1",
-                            ViewCount = 15
-                        },
-                        new
-                        {
-                            Id = new Guid("23afc10d-ca86-4e33-b722-b0f9c62e4608"),
-                            CategoryId = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
-                            Content = "Visual Studio   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(7720),
-                            ImageId = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
-                            IsDeleted = false,
-                            Title = "Visual Studio Deneme Makalesi 1",
-                            ViewCount = 15
-                        });
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Category", b =>
@@ -137,24 +114,6 @@ namespace BlogWebY.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8203),
-                            IsDeleted = false,
-                            Name = "ASP.NET Core"
-                        },
-                        new
-                        {
-                            Id = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8211),
-                            IsDeleted = false,
-                            Name = "Visual Studio 2022"
-                        });
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Image", b =>
@@ -196,26 +155,6 @@ namespace BlogWebY.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Images");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8483),
-                            FileName = "images/testimage",
-                            FileType = "jpg",
-                            IsDeleted = false
-                        },
-                        new
-                        {
-                            Id = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
-                            CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 9, 39, 4, 928, DateTimeKind.Local).AddTicks(8491),
-                            FileName = "images/vstest",
-                            FileType = "png",
-                            IsDeleted = false
-                        });
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Article", b =>
