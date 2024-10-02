@@ -397,3 +397,5 @@ C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\bin\Debug\net6.0\tr\Microsoft.Code
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\obj\Debug\net6.0\BlogWebY.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ELViN\source\repos\BlogWebY\BlogWebY\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

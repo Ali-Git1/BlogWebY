@@ -1,14 +1,9 @@
-﻿using BlogWebY.Entity.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BlogWebY.Entity.DTOs.Articles;
 
 namespace BlogWebY.Service.Services.Abstractions
 {
     public interface IArticleService
     {
-        Task<List<Article>> GetAllArticleAsync();
+        Task<List<ArticleDto>> GetAllArticleAsync();
     }
 }

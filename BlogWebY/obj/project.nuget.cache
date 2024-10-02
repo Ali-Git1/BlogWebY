@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "O0/m+Fp62HsphDNhmPH8G6DN/lG38SHA2j/f0H38hKTJ3IO9uRA9IBI+DZYh/c5F3ocRCW+5XEEYSBWLDf49uw==",
+  "dgSpecHash": "OLgaiqGlLbHf6R3RE5rdpEoHXM+jE0ZQ5jpxoLLFr7w/j20nfh/Vc3kd8l7OGE99EfEgVFB0QIGhXv78x0U18A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\BlogWebY.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ELViN\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.33\\microsoft.aspnetcore.mvc.razor.extensions.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.33\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.33.nupkg.sha512",
@@ -12,7 +14,7 @@
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.0\\microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.0\\microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.33\\microsoft.codeanalysis.razor.6.0.33.nupkg.sha512",
-    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.33\\microsoft.entityframeworkcore.6.0.33.nupkg.sha512",

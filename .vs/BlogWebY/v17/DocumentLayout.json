@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\automapper\\articles\\articleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\automapper\\articles\\articleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|solutionrelative:blogweby\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|solutionrelative:blogweby\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\services\\concrete\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\services\\concrete\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\services\\abstractions\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\services\\abstractions\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\extensions\\servicelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\extensions\\servicelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.entity\\dtos\\articles\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|solutionrelative:blogweby.entity\\dtos\\articles\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|solutionrelative:blogweby.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|solutionrelative:blogweby\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\extensions\\servicelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\extensions\\servicelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97417D5F-3C03-42C8-ACDF-AC40A532A6C3}|BlogWebY.Data\\BlogWebY.Data.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.data\\extension\\datalayerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97417D5F-3C03-42C8-ACDF-AC40A532A6C3}|BlogWebY.Data\\BlogWebY.Data.csproj|solutionrelative:blogweby.data\\extension\\datalayerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.service\\services\\abstractions\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0F3C-F77A-4C31-A5AC-C4AF68150CA9}|BlogWebY.Service\\BlogWebY.Service.csproj|solutionrelative:blogweby.service\\services\\abstractions\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97417D5F-3C03-42C8-ACDF-AC40A532A6C3}|BlogWebY.Data\\BlogWebY.Data.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.data\\migrations\\20241002081948_dallextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{5B3C7FDA-1A73-48CA-8AB8-E6E77A719F05}|BlogWebY\\BlogWebY.csproj|solutionrelative:blogweby\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|solutionrelative:blogweby.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|c:\\users\\elvin\\source\\repos\\blogweby\\blogweby.entity\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50F788A0-E9A8-42F4-BDAA-1B8163B980E6}|BlogWebY.Entity\\BlogWebY.Entity.csproj|solutionrelative:blogweby.entity\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -102,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,45 +126,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Program.cs",
-              "RelativeDocumentMoniker": "BlogWebY\\Program.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Program.cs",
-              "RelativeToolTip": "BlogWebY\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:05:40.06Z",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BlogWebY\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BlogWebY\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T16:31:19.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T10:25:09.903Z"
+              "DocumentIndex": 3,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Concrete\\ArticleService.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Service\\Services\\Concrete\\ArticleService.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Concrete\\ArticleService.cs",
+              "RelativeToolTip": "BlogWebY.Service\\Services\\Concrete\\ArticleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:24:05.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticleProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\AutoMapper\\Articles\\ArticleProfile.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Service\\AutoMapper\\Articles\\ArticleProfile.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\AutoMapper\\Articles\\ArticleProfile.cs",
+              "RelativeToolTip": "BlogWebY.Service\\AutoMapper\\Articles\\ArticleProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:17:44.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticleDto.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\DTOs\\Articles\\ArticleDto.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Entity\\DTOs\\Articles\\ArticleDto.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\DTOs\\Articles\\ArticleDto.cs",
+              "RelativeToolTip": "BlogWebY.Entity\\DTOs\\Articles\\ArticleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:07:13.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceLayerExtension.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
+              "RelativeToolTip": "BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:16:12.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABkAAAA",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlogWebY\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BlogWebY\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T10:24:55.696Z",
+              "WhenOpened": "2024-10-02T08:51:39.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -161,7 +217,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BlogWebY\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:24:55.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
+              "RelativeToolTip": "BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T08:37:02.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BlogWebY\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:25:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Program.cs",
+              "RelativeDocumentMoniker": "BlogWebY\\Program.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Program.cs",
+              "RelativeToolTip": "BlogWebY\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:05:40.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BlogWebY\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -169,216 +277,12 @@
               "RelativeToolTip": "BlogWebY\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T10:18:57.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BlogWebY\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BlogWebY\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T08:51:39.694Z",
+              "WhenOpened": "2024-10-02T10:18:57.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "BlogWebY\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "BlogWebY\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T10:15:45.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServiceLayerExtension.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
-              "RelativeToolTip": "BlogWebY.Service\\Extensions\\ServiceLayerExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:16:12.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IArticleService.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
-              "RelativeToolTip": "BlogWebY.Service\\Services\\Abstractions\\IArticleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T08:37:02.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DataLayerExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:32:29.691Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BlogWebY\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BlogWebY\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:35:09.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241002081948_DallExtension.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T08:19:48.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:46:20.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ImageMap.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ImageMap.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\ImageMap.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ImageMap.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Mapping\\ImageMap.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:31:33.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ArticleMap.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ArticleMap.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\ArticleMap.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ArticleMap.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Mapping\\ArticleMap.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAIBJwB8AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T17:42:35.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryMap.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\CategoryMap.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\CategoryMap.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\CategoryMap.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Mapping\\CategoryMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:12:03.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\appsettings.json",
-              "RelativeDocumentMoniker": "BlogWebY\\appsettings.json",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\appsettings.json",
-              "RelativeToolTip": "BlogWebY\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-01T16:02:42.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Data\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "BlogWebY.Data\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAjwBkAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:45:06.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IEntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\IEntityBase.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Core\\Entities\\IEntityBase.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\IEntityBase.cs",
-              "RelativeToolTip": "BlogWebY.Core\\Entities\\IEntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:57:03.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\EntityBase.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Core\\Entities\\EntityBase.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\EntityBase.cs",
-              "RelativeToolTip": "BlogWebY.Core\\Entities\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:51:15.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Image.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Entity\\Entities\\Image.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Image.cs",
-              "RelativeToolTip": "BlogWebY.Entity\\Entities\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:41:21.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "BlogWebY.Entity\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Category.cs",
-              "RelativeToolTip": "BlogWebY.Entity\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:40:02.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Article.cs",
               "RelativeDocumentMoniker": "BlogWebY.Entity\\Entities\\Article.cs",
@@ -386,7 +290,190 @@
               "RelativeToolTip": "BlogWebY.Entity\\Entities\\Article.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:37:08.487Z"
+              "WhenOpened": "2024-10-01T14:37:08.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "BlogWebY\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "BlogWebY\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:15:45.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataLayerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Extension\\DataLayerExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T06:32:29.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BlogWebY\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BlogWebY\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:35:09.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241002081948_DallExtension.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Migrations\\20241002081948_DallExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T08:19:48.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Repositories\\Abstraction\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T05:46:20.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImageMap.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ImageMap.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\ImageMap.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ImageMap.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Mapping\\ImageMap.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T05:31:33.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ArticleMap.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ArticleMap.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\ArticleMap.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\ArticleMap.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Mapping\\ArticleMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAEBVwB8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T17:42:35.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryMap.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\CategoryMap.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Mapping\\CategoryMap.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Mapping\\CategoryMap.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Mapping\\CategoryMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:12:03.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogWebY\\appsettings.json",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\appsettings.json",
+              "RelativeToolTip": "BlogWebY\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T16:02:42.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "BlogWebY.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAjwBkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:45:06.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IEntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\IEntityBase.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Core\\Entities\\IEntityBase.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\IEntityBase.cs",
+              "RelativeToolTip": "BlogWebY.Core\\Entities\\IEntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:57:03.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Core\\Entities\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Core\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "BlogWebY.Core\\Entities\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:51:15.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Entity\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Image.cs",
+              "RelativeToolTip": "BlogWebY.Entity\\Entities\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:41:21.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "BlogWebY.Entity\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\Entities\\Category.cs",
+              "RelativeToolTip": "BlogWebY.Entity\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:40:02.493Z",
+              "EditorCaption": ""
             }
           ]
         }
