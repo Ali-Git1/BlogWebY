@@ -54,7 +54,8 @@ namespace BlogWebY.Data.Mapping
                 LastName = "Aliyev",
                 PhoneNumberConfirmed = true,
                 EmailConfirmed = true,
-                SecurityStamp = Guid.NewGuid().ToString()
+                SecurityStamp = Guid.NewGuid().ToString(),
+                ImageId= Guid.Parse("6EDD6CA6-6EEB-43B2-9FB8-D9D44669AD8A")
             };
             superadmin.PasswordHash = CreatePasswordHash(superadmin, "123456");
 
@@ -70,7 +71,8 @@ namespace BlogWebY.Data.Mapping
                 LastName = "User",
                 PhoneNumberConfirmed = false,
                 EmailConfirmed = false,
-                SecurityStamp = Guid.NewGuid().ToString()
+                SecurityStamp = Guid.NewGuid().ToString(),
+                ImageId = Guid.Parse("103D6C6B-7542-4A13-AFB0-F7E9F0E386B5")
             };
             admin.PasswordHash = CreatePasswordHash(admin, "123456");
 

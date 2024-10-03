@@ -18,7 +18,8 @@ namespace BlogWebY.Data.Mapping
                 ImageId = Guid.Parse("6EDD6CA6-6EEB-43B2-9FB8-D9D44669AD8A"),
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted = false
+                IsDeleted = false,
+                UserId= Guid.Parse("CEF5328A-BB41-4F5A-91F6-A8514570E453")
 
             },
             new Article
@@ -32,7 +33,8 @@ namespace BlogWebY.Data.Mapping
                 ImageId= Guid.Parse("103D6C6B-7542-4A13-AFB0-F7E9F0E386B5"),
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted = false
+                IsDeleted = false,
+                UserId= Guid.Parse("A0AFAFBD-64C6-4146-94D3-F81F6D752B7C")
             });
         }
     }
