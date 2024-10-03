@@ -22,6 +22,288 @@ namespace BlogWebY.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppRole", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("8a938cc1-331a-4373-96a4-0f35d1858cc1"),
+                            ConcurrencyStamp = "88a2d91b-b607-43f2-a9c2-c9cca28be820",
+                            Name = "Superadmin",
+                            NormalizedName = "SUPERADMIN"
+                        },
+                        new
+                        {
+                            Id = new Guid("0046f62e-323d-4764-81f8-2551e9277ee1"),
+                            ConcurrencyStamp = "26a79f3d-8f38-43c2-99ce-e90d7fd6e04f",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = new Guid("0ab2efe5-fc77-41ad-a16d-362e4b0f53bb"),
+                            ConcurrencyStamp = "567af7de-b401-4e66-828e-889f8b70b0c2",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppRoleClaim", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUser", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("cef5328a-bb41-4f5a-91f6-a8514570e453"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "4a035879-6799-44de-86d9-55e3279bb91d",
+                            Email = "superadmin@gmail.com",
+                            EmailConfirmed = true,
+                            FirstName = "Ali",
+                            LastName = "Aliyev",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "SUPERADMIN@GMAIL.COM",
+                            NormalizedUserName = "SUPERADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJnylP5LT4mnS4d4g34VIdGK+BMm/KkTPaKF2Syxa/I0P+94qCsYFtrcC/Ykxx6cSA==",
+                            PhoneNumber = "+994707007070",
+                            PhoneNumberConfirmed = true,
+                            SecurityStamp = "5bd37bea-f449-4f61-ab15-6f20bd80f0b7",
+                            TwoFactorEnabled = false,
+                            UserName = "superadmin@gmail.com"
+                        },
+                        new
+                        {
+                            Id = new Guid("a0afafbd-64c6-4146-94d3-f81f6d752b7c"),
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "e17bde3c-c440-4f22-b0f6-0a525eeaef2f",
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = false,
+                            FirstName = "Admin",
+                            LastName = "User",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAENB3X+Wb01NzylVf3klPm4pmRpZMSZV/vEa0iobUboYjazycuNB11cdXWEyS2/3+wA==",
+                            PhoneNumber = "+994505005050",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "aa3ee49d-73e3-4e20-b29d-1a9b15572360",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@gmail.com"
+                        });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserClaim", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserLogin", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserRole", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = new Guid("cef5328a-bb41-4f5a-91f6-a8514570e453"),
+                            RoleId = new Guid("8a938cc1-331a-4373-96a4-0f35d1858cc1")
+                        },
+                        new
+                        {
+                            UserId = new Guid("a0afafbd-64c6-4146-94d3-f81f6d752b7c"),
+                            RoleId = new Guid("0046f62e-323d-4764-81f8-2551e9277ee1")
+                        });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserToken", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
             modelBuilder.Entity("BlogWebY.Entity.Entities.Article", b =>
                 {
                     b.Property<Guid>("Id")
@@ -78,11 +360,11 @@ namespace BlogWebY.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("4d986c08-efae-497a-b215-984194b9bdde"),
+                            Id = new Guid("8368349d-83dc-42ea-bccc-5492fc4cbf06"),
                             CategoryId = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             Content = "Asp.net   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(425),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(3735),
                             ImageId = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             IsDeleted = false,
                             Title = "Asp.net Core Deneme Makalesi 1",
@@ -90,11 +372,11 @@ namespace BlogWebY.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("7bf4dd47-f465-4f84-9ff5-63f86c24a253"),
+                            Id = new Guid("5d7579f6-9d0f-4147-ad36-ff20ad4d8618"),
                             CategoryId = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             Content = "Visual Studio   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(475),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(3752),
                             ImageId = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             IsDeleted = false,
                             Title = "Visual Studio Deneme Makalesi 1",
@@ -143,7 +425,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(970),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(4426),
                             IsDeleted = false,
                             Name = "ASP.NET Core"
                         },
@@ -151,7 +433,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(976),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(4435),
                             IsDeleted = false,
                             Name = "Visual Studio 2022"
                         });
@@ -202,7 +484,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(1179),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(4846),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false
@@ -211,11 +493,62 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 2, 12, 19, 47, 143, DateTimeKind.Local).AddTicks(1185),
+                            CreatedDate = new DateTime(2024, 10, 3, 11, 49, 7, 38, DateTimeKind.Local).AddTicks(4853),
                             FileName = "images/vstest",
                             FileType = "png",
                             IsDeleted = false
                         });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppRoleClaim", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.AppRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserClaim", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserLogin", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserRole", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.AppRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BlogWebY.Entity.Entities.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.AppUserToken", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Article", b =>

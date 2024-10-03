@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "xMnclLC4xnKi53erPv2pzRTaMPMRO2ODRw+8QypZmt32bI6S//ytxMHUI3cUyPf5EGWEwIHVbOFtTIZk98HvDQ==",
+  "dgSpecHash": "kG9z4WJ8p0Ka/H1oMYL2CUSo0qDIfKPNqenYAiQaQKE9kV+EEvRb10AtD/sZx7jujbHPClAfAxUf+rCLuEid8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\BlogWebY.Entity.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.33\\microsoft.aspnetcore.cryptography.internal.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.33\\microsoft.aspnetcore.cryptography.keyderivation.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.33\\microsoft.extensions.identity.core.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.33\\microsoft.extensions.identity.stores.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
