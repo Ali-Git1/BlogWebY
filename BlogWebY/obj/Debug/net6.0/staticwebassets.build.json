@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EY4YcHER/FjuIuH0CiOhZUrqKOaLLnpanysHAP8+jgE=",
+  "Hash": "CUbjal30gwjtMLi0dZIOtpx4ZgERYJPBrN5SADPbQQc=",
   "Source": "BlogWebY",
   "BasePath": "_content/BlogWebY",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\articleIndex.js",
+      "SourceId": "BlogWebY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\",
+      "BasePath": "_content/BlogWebY",
+      "RelativePath": "js/articleIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
     },
     {
       "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\site.js",
