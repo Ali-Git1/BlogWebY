@@ -65,5 +65,12 @@ namespace BlogWebY.Areas.Admin.Controllers
             return View(articleUpdateDto);
 
         }
+
+        public async Task<IActionResult> Delete(Guid articleId)
+        {
+            await articleService.SafeDeleteArticleAsync(articleId);
+
+            return RedirectToAction("Index", "Article", new { Area = "Admin" });
+        }
     }
 }
