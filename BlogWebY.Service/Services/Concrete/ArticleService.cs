@@ -20,14 +20,9 @@ namespace BlogWebY.Service.Services.Concrete
         public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
         {
             var userId = Guid.Parse("CEF5328A-BB41-4F5A-91F6-A8514570E453");
-
-            var article = new Article
-            {
-                Title = articleAddDto.Title,
-                Content = articleAddDto.Content,
-                CategoryId = articleAddDto.CategoryId,
-                UserId=userId
-            };
+            var imageId = Guid.Parse("6EDD6CA6-6EEB-43B2-9FB8-D9D44669AD8A");
+            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId,articleAddDto.CategoryId, imageId);
+           
 
             await unitOfWork.GetRepository<Article>().AddAsync(article);
             await unitOfWork.SaveAsync();
