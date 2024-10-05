@@ -1,17 +1,10 @@
-﻿using BlogWebY.Data.Context;
-using BlogWebY.Data.Repositories.Abstraction;
-using BlogWebY.Data.Repositories.Concretes;
-using BlogWebY.Data.UnitOfWorks;
+﻿using BlogWebY.Service.FluentValidations;
 using BlogWebY.Service.Services.Abstractions;
 using BlogWebY.Service.Services.Concrete;
-using Microsoft.Extensions.Configuration;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Globalization;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlogWebY.Service.Extensions
 {
@@ -25,6 +18,14 @@ namespace BlogWebY.Service.Extensions
             services.AddScoped<ICategoryService, CategoryService>();
 
             services.AddAutoMapper(assembly);
+
+            services.AddControllersWithViews()
+                .AddFluentValidation(opt =>
+            {
+                opt.RegisterValidatorsFromAssemblyContaining<ArticleValidator>();
+                opt.DisableDataAnnotationsValidation = true;
+                opt.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr");
+            });
 
             return services;
         }

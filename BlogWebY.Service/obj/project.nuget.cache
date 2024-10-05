@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "30JC/HD2XfRTqfTdH8JAZXo8eKtBkpVeXJgY9gtbVbuB8eoqaQbTt7xSD4emYLgLWGZYGtq4DRESj7Py08nBMA==",
+  "dgSpecHash": "ydBRGe5qsHCa+feX7DO0uBs092SAQs9AFqNUHsQhJtnZ+aKN+gG/f3xOHmLAbVXlAT4VxVd1ByYwttKyiw3q7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\BlogWebY.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELViN\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.33\\microsoft.aspnetcore.cryptography.internal.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.33\\microsoft.aspnetcore.cryptography.keyderivation.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.33\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.33.nupkg.sha512",
