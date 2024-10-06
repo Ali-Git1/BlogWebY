@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using BlogWebY.Entity.DTOs.Articles;
 using BlogWebY.Entity.Entities;
+using BlogWebY.ResultMessages;
 using BlogWebY.Service.Extensions;
 using BlogWebY.Service.Services.Abstractions;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using NToastNotify;
 
 namespace BlogWebY.Areas.Admin.Controllers
 {
@@ -15,13 +17,15 @@ namespace BlogWebY.Areas.Admin.Controllers
         private readonly ICategoryService categoryService;
         private readonly IMapper mapper;
         private readonly IValidator<Article> validator;
+        private readonly IToastNotification toast;
 
-        public ArticleController(IArticleService articleService,ICategoryService categoryService,IMapper mapper,IValidator<Article> validator)
+        public ArticleController(IArticleService articleService,ICategoryService categoryService,IMapper mapper,IValidator<Article> validator,IToastNotification toast)
         {
             this.articleService = articleService;
             this.categoryService = categoryService;
             this.mapper = mapper;
             this.validator = validator;
+            this.toast = toast;
         }
         public async Task<IActionResult> Index()
         {
@@ -44,6 +48,7 @@ namespace BlogWebY.Areas.Admin.Controllers
             if(result.IsValid)
             {
                 await articleService.CreateArticleAsync(articleAddDto);
+                toast.AddSuccessToastMessage(Messages.Article.Add(articleAddDto.Title),new ToastrOptions { Title="Basarili"});
                 return RedirectToAction("Index", "Article", new { Area = "Admin" });
             }
             else
@@ -76,7 +81,10 @@ namespace BlogWebY.Areas.Admin.Controllers
 
             if (result.IsValid)
             {
-                await articleService.UpdateArticleAsync(articleUpdateDto);
+                var title=await articleService.UpdateArticleAsync(articleUpdateDto);
+                toast.AddSuccessToastMessage(Messages.Article.Update(title), new ToastrOptions() { Title = "Islem basarili" });
+                return RedirectToAction("Index", "Article", new { Area = "Admin" });
+
             }
             else
             {
@@ -92,7 +100,10 @@ namespace BlogWebY.Areas.Admin.Controllers
 
         public async Task<IActionResult> Delete(Guid articleId)
         {
-            await articleService.SafeDeleteArticleAsync(articleId);
+            var title=await articleService.SafeDeleteArticleAsync(articleId);
+
+            toast.AddSuccessToastMessage(Messages.Article.Delete(title), new ToastrOptions() { Title = "Islem basarili" });
+
 
             return RedirectToAction("Index", "Article", new { Area = "Admin" });
         }
