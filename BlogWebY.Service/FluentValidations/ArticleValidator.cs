@@ -12,14 +12,14 @@ namespace BlogWebY.Service.FluentValidations
                 .NotNull()
                 .MinimumLength(3)
                 .MaximumLength(150)
-                .WithName("Baslik");
+                .WithName("Başlık");
 
             RuleFor(x => x.Content)
                .NotEmpty()
                .NotNull()
                .MinimumLength(3)
                .MaximumLength(150)
-               .WithName("Icerik");
+               .WithName("İçerik");
         }
     }
 }

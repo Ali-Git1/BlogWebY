@@ -2,6 +2,7 @@
 using BlogWebY.Service.Services.Abstractions;
 using BlogWebY.Service.Services.Concrete;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Reflection;
@@ -16,6 +17,8 @@ namespace BlogWebY.Service.Extensions
 
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddAutoMapper(assembly);
 
