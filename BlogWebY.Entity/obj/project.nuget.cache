@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kG9z4WJ8p0Ka/H1oMYL2CUSo0qDIfKPNqenYAiQaQKE9kV+EEvRb10AtD/sZx7jujbHPClAfAxUf+rCLuEid8w==",
+  "dgSpecHash": "LnJGPz5ExqWqDh+gcaXzKmdjPPECvVTc9YYT+6Smbz7/+w/fDnp+ewkQZV52iTs6D5rywS8KBRjX9NklGhtU2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Entity\\BlogWebY.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.33\\microsoft.aspnetcore.cryptography.internal.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.33\\microsoft.aspnetcore.cryptography.keyderivation.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

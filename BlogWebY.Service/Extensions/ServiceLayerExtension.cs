@@ -1,4 +1,5 @@
 ﻿using BlogWebY.Service.FluentValidations;
+using BlogWebY.Service.Helpers.Images;
 using BlogWebY.Service.Services.Abstractions;
 using BlogWebY.Service.Services.Concrete;
 using FluentValidation.AspNetCore;
@@ -17,6 +18,7 @@ namespace BlogWebY.Service.Extensions
 
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IImageHelper, ImageHelper>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 

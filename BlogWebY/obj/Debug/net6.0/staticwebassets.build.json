@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A32PFNlxFYAF69idgtlLed22LDduU+8IYuMGq17H3j8=",
+  "Hash": "TpmskgBXeDz7c5u6F6x/A6cbmEOk4/XiuoPFYkXxiA4=",
   "Source": "BlogWebY",
   "BasePath": "_content/BlogWebY",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\images\\article-images\\Diplom_241.jpeg",
+      "SourceId": "BlogWebY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\",
+      "BasePath": "_content/BlogWebY",
+      "RelativePath": "images/article-images/Diplom_241.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\Diplom_241.jpeg"
     },
     {
       "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\articleIndex.js",

@@ -2085,6 +2085,7 @@
       "BlogWebY.Entity/1.0.0": {
         "dependencies": {
           "BlogWebY.Core": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "6.0.33"
         },
         "runtime": {

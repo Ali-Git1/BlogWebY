@@ -18,7 +18,7 @@
                 <form asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="card-body">
-                        <input type="hidden" asp-for="Id"/>
+                        <input type="hidden" asp-for="Id" />
                         <div class="form-group">
                             <label asp-for="CategoryId">Kategori</label>
                             <select id="categoryList" class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories,"Id","Name"))"></select>
@@ -37,6 +37,18 @@
                             <span asp-validation-for="Content" class="text-danger"></span>
                         </div>
 
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="Image.FileName" for="defaultFormControlInput" class="form-label d-block">Mevcut Resim</label>
+                                <img style="height:25em; width:25em" class="mb-3" src="~/images/@Model.Image.FileName" alt="@Model.Title" />
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label asp-for="Photo" for="defaultFormControlInput" class="form-label">Resim seciniz</label>
+                                <input asp-for="Photo" type="file" accept="image/*" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                                <span asp-validation-for="Photo" class="text-danger"></span>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary btn-block">Kaydet</button>
                         </div>

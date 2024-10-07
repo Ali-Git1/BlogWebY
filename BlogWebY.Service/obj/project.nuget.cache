@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ydBRGe5qsHCa+feX7DO0uBs092SAQs9AFqNUHsQhJtnZ+aKN+gG/f3xOHmLAbVXlAT4VxVd1ByYwttKyiw3q7g==",
+  "dgSpecHash": "c4dYKyhVle0s7aCYKawqSPaw4LOMvlI69lr0BKKIJzptXOsrUT5l5qAP3Odw+G4xGKq2YULyVJNGZQ+hSCYyxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY.Service\\BlogWebY.Service.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\ELViN\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.33\\microsoft.aspnetcore.cryptography.internal.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.33\\microsoft.aspnetcore.cryptography.keyderivation.6.0.33.nupkg.sha512",
+    "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.33\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.33.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ELViN\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
