@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TpmskgBXeDz7c5u6F6x/A6cbmEOk4/XiuoPFYkXxiA4=",
+  "Hash": "jIoA1xqy41SX6QikHR21OpXrXmYssIL5Zkl5iLY0cDA=",
   "Source": "BlogWebY",
   "BasePath": "_content/BlogWebY",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
+    },
+    {
+      "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryIndex.js",
+      "SourceId": "BlogWebY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\",
+      "BasePath": "_content/BlogWebY",
+      "RelativePath": "js/categoryIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoryIndex.js"
     },
     {
       "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\site.js",
