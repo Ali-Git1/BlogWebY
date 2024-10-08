@@ -77,9 +77,10 @@ namespace BlogWebY.Service.Services.Concrete
 
             }
 
-            article.Title = articleUpdateDto.Title;
-            article.Content = articleUpdateDto.Content;
-            article.CategoryId = articleUpdateDto.CategoryId;
+            mapper.Map(articleUpdateDto, article);
+            //article.Title = articleUpdateDto.Title;
+            //article.Content = articleUpdateDto.Content;
+            //article.CategoryId = articleUpdateDto.CategoryId;
             article.ModifiedDate = DateTime.Now;
             article.ModifiedBy = userEmail;
 

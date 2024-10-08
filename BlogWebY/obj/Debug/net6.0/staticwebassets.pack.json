@@ -29,12 +29,20 @@
       "PackagePath": "staticwebassets\\js\\articleIndex.js"
     },
     {
+      "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryAdd.js",
+      "PackagePath": "staticwebassets\\js\\categoryAdd.js"
+    },
+    {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryIndex.js",
       "PackagePath": "staticwebassets\\js\\categoryIndex.js"
     },
     {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\userIndex.js",
+      "PackagePath": "staticwebassets\\js\\userIndex.js"
     },
     {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\lib\\bootstrap\\LICENSE",

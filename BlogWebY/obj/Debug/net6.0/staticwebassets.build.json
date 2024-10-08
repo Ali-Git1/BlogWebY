@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jIoA1xqy41SX6QikHR21OpXrXmYssIL5Zkl5iLY0cDA=",
+  "Hash": "JDH+h104pXPz/qPpwHZUaWibetD5vOraHsL97iWXRfg=",
   "Source": "BlogWebY",
   "BasePath": "_content/BlogWebY",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\js\\articleIndex.js"
     },
     {
+      "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryAdd.js",
+      "SourceId": "BlogWebY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\",
+      "BasePath": "_content/BlogWebY",
+      "RelativePath": "js/categoryAdd.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoryAdd.js"
+    },
+    {
       "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryIndex.js",
       "SourceId": "BlogWebY",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\userIndex.js",
+      "SourceId": "BlogWebY",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\",
+      "BasePath": "_content/BlogWebY",
+      "RelativePath": "js/userIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\userIndex.js"
     },
     {
       "Identity": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
