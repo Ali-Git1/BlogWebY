@@ -15,6 +15,8 @@ namespace BlogWebY.Service.AutoMapper.Users
         public UserProfile()
         {
             CreateMap<AppUser, UserDto>().ReverseMap();
+            CreateMap<AppUser, UserAddDto>().ReverseMap();
+            CreateMap<AppUser, UserUpdateDto>().ReverseMap();
           
         }
     }

@@ -11,6 +11,7 @@ namespace BlogWebY.Entity.DTOs.Articles
         public CategoryDto Category { get; set; }
         public DateTime CreatedDate { get; set; }
         public Image Image { get; set; }
+        public AppUser User { get; set; }
         public string CreatedBy { get; set; }
         public bool IsDeleted { get; set; }
     }
