@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BlogWebY.Consts;
 using BlogWebY.Entity.DTOs.Articles;
 using BlogWebY.Entity.Entities;
 using BlogWebY.ResultMessages;
@@ -29,14 +30,14 @@ namespace BlogWebY.Areas.Admin.Controllers
             this.toast = toast;
         }
         [HttpGet]
-        [Authorize(Roles ="Superadmin,Admin,User")]
+        [Authorize(Roles =$"{RoleConsts.Superadmin},{RoleConsts.Admin},{RoleConsts.User}")]
         public async Task<IActionResult> Index()
         {
             var articles = await articleService.GetAllArticlesWithCategoryNonDeletedAsync();
             return View(articles);
         }
         [HttpGet]
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize(Roles = $"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> DeletedArticle()
         {
             var articles = await articleService.GetAllArticlesWithCategoryDeletedAsync();
@@ -44,7 +45,7 @@ namespace BlogWebY.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Add()
         {
             var categories = await categoryService.GetAllCategoriesNonDeleted();
@@ -52,7 +53,7 @@ namespace BlogWebY.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Add(ArticleAddDto articleAddDto)
         {
             var map = mapper.Map<Article>(articleAddDto);
@@ -75,7 +76,7 @@ namespace BlogWebY.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Update(Guid articleId)
         {
             var article=await articleService.GetArticleWithCategoryNonDeletedAsync(articleId);
@@ -88,7 +89,7 @@ namespace BlogWebY.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Update(ArticleUpdateDto articleUpdateDto)
         {
             var map = mapper.Map<Article>(articleUpdateDto);
@@ -112,7 +113,7 @@ namespace BlogWebY.Areas.Admin.Controllers
             return View(articleUpdateDto);
 
         }
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Delete(Guid articleId)
         {
             var title=await articleService.SafeDeleteArticleAsync(articleId);
@@ -122,7 +123,7 @@ namespace BlogWebY.Areas.Admin.Controllers
 
             return RedirectToAction("Index", "Article", new { Area = "Admin" });
         }
-        [Authorize(Roles = "Superadmin,Admin")]
+        [Authorize($"{RoleConsts.Superadmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> UndoDelete(Guid articleId)
         {
             var title = await articleService.UndoDeleteArticleAsync(articleId);

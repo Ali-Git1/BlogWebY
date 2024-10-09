@@ -1,6 +1,9 @@
-﻿using BlogWebY.Service.Services.Abstractions;
+﻿using BlogWebY.Entity.Entities;
+using BlogWebY.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BlogWebY.Areas.Admin.Controllers
 {
@@ -17,6 +20,7 @@ namespace BlogWebY.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             var articles=await articleService.GetAllArticlesWithCategoryNonDeletedAsync();
+
             return View(articles);
         }
     }
