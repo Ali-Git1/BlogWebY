@@ -1,6 +1,7 @@
 using BlogWebY.Data.Context;
 using BlogWebY.Data.Extension;
 using BlogWebY.Entity.Entities;
+using BlogWebY.Service.Describers;
 using BlogWebY.Service.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,7 @@ builder.Services.AddIdentity<AppUser, AppRole>(opt =>
     opt.Password.RequireUppercase=false;
 })
     .AddRoleManager<RoleManager<AppRole>>()
+    .AddErrorDescriber<CustomIdentityErrorDescriber>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
