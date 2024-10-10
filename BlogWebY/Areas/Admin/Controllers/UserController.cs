@@ -1,13 +1,18 @@
 ﻿using AutoMapper;
+using BlogWebY.Data.UnitOfWorks;
 using BlogWebY.Entity.DTOs.Users;
 using BlogWebY.Entity.Entities;
+using BlogWebY.Entity.Enums;
 using BlogWebY.ResultMessages;
 using BlogWebY.Service.Extensions;
+using BlogWebY.Service.Helpers.Images;
+using BlogWebY.Service.Services.Abstractions;
 using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+using static BlogWebY.ResultMessages.Messages;
 
 namespace BlogWebY.Areas.Admin.Controllers
 {
@@ -15,38 +20,38 @@ namespace BlogWebY.Areas.Admin.Controllers
     public class UserController : Controller
     {
         private readonly UserManager<AppUser> userManager;
+        private readonly IUserService userService;
+        private readonly IUnitOfWork unitOfWork;
         private readonly RoleManager<AppRole> roleManager;
+        private readonly IImageHelper imageHelper;
         private readonly IValidator<AppUser> validator;
         private readonly IToastNotification toast;
+        private readonly SignInManager<AppUser> signInManager;
         private readonly IMapper mapper;
 
-        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IValidator<AppUser> validator, IToastNotification toast, IMapper mapper)
+        public UserController(UserManager<AppUser> userManager,IUserService userService,IUnitOfWork unitOfWork, RoleManager<AppRole> roleManager,IImageHelper imageHelper, IValidator<AppUser> validator,
+            IToastNotification toast,SignInManager<AppUser> signInManager, IMapper mapper)
         {
             this.userManager = userManager;
+            this.userService = userService;
+            this.unitOfWork = unitOfWork;
             this.roleManager = roleManager;
+            this.imageHelper = imageHelper;
             this.validator = validator;
             this.toast = toast;
+            this.signInManager = signInManager;
             this.mapper = mapper;
         }
         public async Task<IActionResult> Index()
         {
-            var users = await userManager.Users.ToListAsync();
-            var map = mapper.Map<List<UserDto>>(users);
+            var result = await userService.GetAllUsersWithRoleAsync();
 
-            foreach (var item in map)
-            {
-                var findUser = await userManager.FindByIdAsync(item.Id.ToString());
-                var role = string.Join("", await userManager.GetRolesAsync(findUser));
-
-                item.Role = role;
-            }
-
-            return View(map);
+            return View(result);
         }
         [HttpGet]
         public async Task<IActionResult> Add()
         {
-            var roles = await roleManager.Roles.ToListAsync();
+            var roles = await userService.GetAllRolesAsync();
             return View(new UserAddDto { Roles = roles });
         }
 
@@ -55,16 +60,13 @@ namespace BlogWebY.Areas.Admin.Controllers
         {
             var map = mapper.Map<AppUser>(userAddDto);
             var validation = await validator.ValidateAsync(map);
-            var roles = await roleManager.Roles.ToListAsync();
+            var roles = await userService.GetAllRolesAsync();
 
             if (ModelState.IsValid)
             {
-                map.UserName = userAddDto.Email;
-                var result = await userManager.CreateAsync(map, string.IsNullOrEmpty(userAddDto.Password) ? "" : userAddDto.Password);
+                var result = await userService.CreateUserAsync(userAddDto);
                 if (result.Succeeded)
                 {
-                    var findRole = await roleManager.FindByIdAsync(userAddDto.RoleId.ToString());
-                    await userManager.AddToRoleAsync(map, findRole.ToString());
                     toast.AddSuccessToastMessage(Messages.User.Add(userAddDto.Email), new ToastrOptions { Title = "Basarili" });
                     return RedirectToAction("Index", "User", new { Area = "Admin" });
                 }
@@ -81,9 +83,9 @@ namespace BlogWebY.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Update(Guid userId)
         {
-            var user = await userManager.FindByIdAsync(userId.ToString());
+            var user = await userService.GetAppUserByIdAsync(userId);
 
-            var roles = await roleManager.Roles.ToListAsync();
+            var roles = await userService.GetAllRolesAsync();
 
             var map = mapper.Map<UserUpdateDto>(user);
             map.Roles = roles;
@@ -92,12 +94,11 @@ namespace BlogWebY.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(UserUpdateDto userUpdateDto)
         {
-            var user = await userManager.FindByIdAsync(userUpdateDto.Id.ToString());
+            var user = await userService.GetAppUserByIdAsync(userUpdateDto.Id);
 
             if (user != null)
             {
-                var userRole = string.Join("", await userManager.GetRolesAsync(user));
-                var roles = await roleManager.Roles.ToListAsync();
+                var roles = await userService.GetAllRolesAsync();
                 if (ModelState.IsValid)
                 {
                     var map = mapper.Map(userUpdateDto, user);
@@ -107,12 +108,9 @@ namespace BlogWebY.Areas.Admin.Controllers
                     {
                         user.UserName = userUpdateDto.Email;
                         user.SecurityStamp = Guid.NewGuid().ToString();
-                        var result = await userManager.UpdateAsync(user);
+                        var result = await userService.UpdateUserAsync(userUpdateDto);
                         if (result.Succeeded)
                         {
-                            await userManager.RemoveFromRoleAsync(user, userRole);
-                            var findRole = await roleManager.FindByIdAsync(userUpdateDto.RoleId.ToString());
-                            await userManager.AddToRoleAsync(user, findRole.Name);
                             toast.AddSuccessToastMessage(Messages.User.Update(userUpdateDto.Email), new ToastrOptions { Title = "Islem Basarili" });
                             return RedirectToAction("Index", "User", new { Area = "Admin" });
                         }
@@ -134,20 +132,49 @@ namespace BlogWebY.Areas.Admin.Controllers
 
         public async Task<IActionResult> Delete(Guid userId)
         {
-            var user = await userManager.FindByIdAsync(userId.ToString());
+            var result = await userService.DeleteUserAsync(userId);
 
-            var result = await userManager.DeleteAsync(user);
-
-            if (result.Succeeded)
+            if (result.identityResult.Succeeded)
             {
-                toast.AddSuccessToastMessage(Messages.User.Delete(user.Email), new ToastrOptions { Title = "Islem Basarili" });
+                toast.AddSuccessToastMessage(Messages.User.Delete(result.email), new ToastrOptions { Title = "Islem Basarili" });
                 return RedirectToAction("Index", "User", new { Area = "Admin" });
             }
             else
             {
-                    result.AddToIdentityModelState(this.ModelState);
+                    result.identityResult.AddToIdentityModelState(this.ModelState);
             }
             return NotFound();
+        }
+        [HttpGet]
+        public async Task<IActionResult> Profile()
+        {
+            var profile = await userService.GetUserProfileAsync();
+
+            return View(profile);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Profile(UserProfileDto userProfileDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await userService.UserProfileUpdateAsync(userProfileDto);
+                if (result)
+                {
+                    toast.AddSuccessToastMessage("Profil guncelleme islemi tamamlandi", new ToastrOptions { Title = "Islem Basarili" });
+                    return RedirectToAction("Index", "Home", new { Area = "Admin" });
+                }
+                else
+                {
+                    var profile = await userService.GetUserProfileAsync();
+                    toast.AddErrorToastMessage("Profil guncelleme islemi tamamlanamadi", new ToastrOptions { Title = "Islem Basarisiz" });
+                    return View(profile);
+                }
+            }
+            else
+            {
+                return NotFound();
+            }
         }
     }
 }
