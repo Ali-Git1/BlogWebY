@@ -1,30 +1,19 @@
-﻿
-<html lang="en" class="light-style layout-menu-fixed layout-compact " dir="ltr" data-theme="theme-default" data-template="vertical-menu-template-free" data-style="light">
+﻿﻿
+
+
+<html lang="en" class="light-style layout-menu-fixed " dir="ltr" data-theme="theme-default" data-template="vertical-menu-template-free">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Demo : Dashboard - Analytics | sneat - Bootstrap Dashboard PRO</title>
+    <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
-
-    <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 Admin Dashboard built for developers!" />
+    <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 HTML Admin Dashboard Template built for developers!" />
     <meta name="keywords" content="dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5">
     <!-- Canonical SEO -->
-    <link rel="canonical" href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/">
+    <link rel="canonical" href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/">
 
-
-    <!-- ? PROD Only: Google Tag Manager (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5DDHKGP');</script>
-    <!-- End Google Tag Manager -->
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="~/sneat/assets/img/favicon/favicon.ico" />
 
@@ -33,13 +22,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-
-
     <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
 
-
-
+    <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href="~/sneat/assets/vendor/fonts/boxicons.css" />
+
 
 
     <!-- Core CSS -->
@@ -49,23 +36,35 @@
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="~/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
     <link rel="stylesheet" href="~/sneat/assets/vendor/libs/apex-charts/apex-charts.css" />
 
     <!-- Page CSS -->
     <!-- Helpers -->
     <script src="~/sneat/assets/vendor/js/helpers.js"></script>
+
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="~/sneat/assets/js/config.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    <!-- Custom notification for demo -->
+    <!-- beautify ignore:end -->
 
 </head>
 
 <body>
 
-
-    <!-- ?PROD Only: Google Tag Manager (noscript) (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DDHKGP" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar  ">
         <div class="layout-container">
@@ -119,11 +118,11 @@
                             </svg>
 
                         </span>
-                        <span class="app-brand-text demo menu-text fw-bold ms-2">sneat</span>
+                        <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
                     </a>
 
                     <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
-                        <i class="bx bx-chevron-left bx-sm d-flex align-items-center justify-content-center"></i>
+                        <i class="bx bx-chevron-left bx-sm align-middle"></i>
                     </a>
                 </div>
 
@@ -133,51 +132,45 @@
 
                 <ul class="menu-inner py-1">
 
-                    <!-- Dashboards -->
-                    <li class="menu-item active active">
+                    <!-- Dashboard -->
+                    <li class="menu-item active">
                         <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="menu-link">
                             <i class='menu-icon bx bxs-dashboard'></i>
-                            <div class="text-truncate" data-i18n="Analytics">Gosterge Paneli</div>
+                            <div data-i18n="Analytics">Gösterge Paneli</div>
                         </a>
                     </li>
 
-                    <!-- Layouts -->
-                    <!-- Apps & Pages -->
-                    <li class="menu-header small text-uppercase">
-                        <span class="menu-header-text">SAYFA YONETIMI</span>
-                    </li>
 
-                    <!-- Pages -->
+                    <li class="menu-header small text-uppercase">
+                        <span class="menu-header-text">SAYFA YÖNETİMİ</span>
+                    </li>
                     <li class="menu-item">
                         <a asp-area="Admin" asp-controller="Article" asp-action="Index" class="menu-link">
                             <i class='menu-icon bx bx-paper-plane'></i>
-                            <div data-i18n="Analytics">Makale Yonetimi</div>
+                            <div data-i18n="Analytics">Makale Yönetimi</div>
                         </a>
                     </li>
 
                     <li class="menu-item">
                         <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="menu-link">
                             <i class='menu-icon bx bx-category'></i>
-                            <div data-i18n="Analytics">Kategori Yonetimi</div>
+                            <div data-i18n="Analytics">Kategori Yönetimi</div>
                         </a>
                     </li>
-
                     <li class="menu-item">
                         <a asp-area="Admin" asp-controller="SocialMedia" asp-action="Index" class="menu-link">
                             <i class='menu-icon bx bx-cube-alt'></i>
-                            <div data-i18n="Analytics">Medya Yonetimi</div>
+                            <div data-i18n="Analytics">Medya Yönetimi</div>
                         </a>
                     </li>
 
-
-
                     <!-- Components -->
-                    <li class="menu-header small text-uppercase"><span class="menu-header-text">KULLANICLAR</span></li>
+                    <li class="menu-header small text-uppercase"><span class="menu-header-text">KULLANICILAR</span></li>
                     <!-- Cards -->
                     <li class="menu-item">
                         <a asp-area="Admin" asp-controller="User" asp-action="Index" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-user"></i>
-                            <div data-i18n="Basic">Kullanicilar</div>
+                            <div data-i18n="Basic">Kullanıcılar</div>
                         </a>
                     </li>
 
@@ -188,15 +181,14 @@
                         </a>
                     </li>
 
-                    <!-- Forms & Tables -->
 
                     <li class="menu-header small text-uppercase"><span class="menu-header-text">Ayarlar</span></li>
 
                     <!-- Tables -->
                     <li class="menu-item">
-                        <a asp-area="Admin" asp-controller="Smtp" asp-action="Index" class="menu-link">
+                        <a asp-area="Admin" asp-controller="Smpt" asp-action="Index" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-cog"></i>
-                            <div data-i18n="Tables">Smtp ayarlari</div>
+                            <div data-i18n="Tables">Smtp Ayarları</div>
                         </a>
                     </li>
                     <!-- Misc -->
@@ -226,6 +218,7 @@
                     </li>
                 </ul>
 
+
             </aside>
             <!-- / Menu -->
             <!-- Layout container -->
@@ -252,9 +245,9 @@
 
 
 
-                    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0   d-xl-none ">
-                        <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
-                            <i class="bx bx-menu bx-md"></i>
+                    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0   d-xl-none ">
+                        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                            <i class="bx bx-menu bx-sm"></i>
                         </a>
                     </div>
 
@@ -265,13 +258,11 @@
 
 
 
-
-
                         <!-- Search -->
                         <div class="navbar-nav align-items-center">
                             <div class="nav-item d-flex align-items-center">
-                                <i class="bx bx-search bx-md"></i>
-                                <input type="text" class="form-control border-0 shadow-none ps-1 ps-sm-2" placeholder="Search..." aria-label="Search...">
+                                <i class="bx bx-search fs-4 lh-0"></i>
+                                <input type="text" class="form-control border-0 shadow-none" placeholder="Search..." aria-label="Search...">
                             </div>
                         </div>
                         <!-- /Search -->
@@ -282,16 +273,15 @@
 
 
                             <!-- Place this tag where you want the button to render. -->
-                            <li class="nav-item lh-1 me-4">
+                            <li class="nav-item lh-1 me-3">
                                 <a class="github-button" href="https://github.com/themeselection/sneat-html-admin-template-free" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star themeselection/sneat-html-admin-template-free on GitHub">Star</a>
                             </li>
 
 
 
                             <!-- User -->
-                            
-
                             @await Component.InvokeAsync("DashboardHeader")
+
                             <!--/ User -->
 
 
@@ -309,7 +299,6 @@
                 @RenderBody()
 
                 <!-- Content wrapper -->
-
             </div>
             <!-- / Layout page -->
         </div>
@@ -327,26 +316,22 @@
 
 
     <div class="buy-now">
-        <a href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/" target="_blank" class="btn btn-danger btn-buy-now">Upgrade to Pro</a>
+        <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/" target="_blank" class="btn btn-danger btn-buy-now">Upgrade to Pro</a>
     </div>
-
 
 
 
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-
     <script src="~/sneat/assets/vendor/libs/jquery/jquery.js"></script>
     <script src="~/sneat/assets/vendor/libs/popper/popper.js"></script>
     <script src="~/sneat/assets/vendor/js/bootstrap.js"></script>
     <script src="~/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script href="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-    <script href="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 
-    <script href="https://cdn.datatables.net/1.6.3/js/dataTables.buttons.min.js" crossorigin="anonymous"></script>
-
-
+    <script src="https://cdn.datatables.net/buttons/1.6.3/js/dataTables.buttons.min.js" crossorigin="anonymous"></script>
     <script src="~/sneat/assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
     <!-- Vendors JS -->
@@ -355,12 +340,11 @@
     <!-- Main JS -->
     <script src="~/sneat/assets/js/main.js"></script>
 
-
     <!-- Page JS -->
     <script src="~/sneat/assets/js/dashboards-analytics.js"></script>
     @await RenderSectionAsync("Scripts", false);
-    @await Component.InvokeAsync("NToastNotify");
-    <!-- Place this tag before closing body tag for github widget button. -->
+    @await Component.InvokeAsync("NToastNotify")
+    <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>

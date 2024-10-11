@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\images\\article-images\\Diplom_241.jpeg"
     },
     {
+      "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\images\\user-images\\Ali1Aliyev_372.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Ali1Aliyev_372.png"
+    },
+    {
+      "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\images\\user-images\\Ali1Aliyev_472.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Ali1Aliyev_472.png"
+    },
+    {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\articleIndex.js",
       "PackagePath": "staticwebassets\\js\\articleIndex.js"
     },
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\categoryIndex.js",
       "PackagePath": "staticwebassets\\js\\categoryIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\dashboardIndex.js",
+      "PackagePath": "staticwebassets\\js\\dashboardIndex.js"
     },
     {
       "Id": "C:\\Users\\ELViN\\source\\repos\\BlogWebY\\BlogWebY\\wwwroot\\js\\site.js",
