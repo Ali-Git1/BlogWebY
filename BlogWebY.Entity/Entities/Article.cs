@@ -31,6 +31,8 @@ namespace BlogWebY.Entity.Entities
         public Guid UserId { get; set; }
         public AppUser User { get; set; }
 
+        public ICollection<ArticleVisitor> ArticleVisitors { get; set; }
+
 
 
 

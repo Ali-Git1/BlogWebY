@@ -53,21 +53,21 @@ namespace BlogWebY.Data.Migrations
                         new
                         {
                             Id = new Guid("8a938cc1-331a-4373-96a4-0f35d1858cc1"),
-                            ConcurrencyStamp = "6c2c9f11-ec0c-4c7c-800c-263b9cdf5ca9",
+                            ConcurrencyStamp = "592e1d1b-e03c-4d38-b438-9e547acbd0a5",
                             Name = "Superadmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("0046f62e-323d-4764-81f8-2551e9277ee1"),
-                            ConcurrencyStamp = "21cf53bc-5eb1-410f-8137-951374f7b70d",
+                            ConcurrencyStamp = "03d4bba2-4e6a-4524-92ec-0043a4aa712f",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("0ab2efe5-fc77-41ad-a16d-362e4b0f53bb"),
-                            ConcurrencyStamp = "fbb60f76-788b-4d20-aa5b-706a051ece48",
+                            ConcurrencyStamp = "c9ea1189-6ebc-4471-82a2-eb2d65a18ab9",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -180,7 +180,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("cef5328a-bb41-4f5a-91f6-a8514570e453"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b7e4066a-e7db-4bff-8692-9c1deeb48111",
+                            ConcurrencyStamp = "374b9536-e326-446e-af59-1238371ae373",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Ali",
@@ -189,10 +189,10 @@ namespace BlogWebY.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEO+WAMg+XnfBSnp5QrGcHOk3sAy8ifIisRMSbntViBg6Rm3yKlKgX0mKiX1XRGmoKw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELyLRwY5m18SeD1ItM3DCXrtMPrZVL4oMTopam1Rbni36vkqeT+UodXVD2PqH/DR5A==",
                             PhoneNumber = "+994707007070",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "41637a80-5b1a-4ffa-a066-0b3ea4676821",
+                            SecurityStamp = "cddc76a6-2c78-4c84-8f58-b482daacaa90",
                             TwoFactorEnabled = false,
                             UserName = "superadmin@gmail.com"
                         },
@@ -200,7 +200,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("a0afafbd-64c6-4146-94d3-f81f6d752b7c"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a2f4c481-24a4-425b-8ccb-a1c0edff7f8d",
+                            ConcurrencyStamp = "dd505ba1-af2b-40eb-a47f-d90c48bdf6c4",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
@@ -209,10 +209,10 @@ namespace BlogWebY.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHpxQsC+Ubu+RNcMtBk9UPpU/dM8cJR7Nm4xL5gMuwnHfbgLztsXW/uqZfDNdr1SLg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAzUsHCd44neLNbtmp+5uJusRDQUWAcWJXgB+rJUShwbXmtZP/1kw9JuQi+1XmirbQ==",
                             PhoneNumber = "+994505005050",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "770892ae-8967-4bd4-921c-26dc128909df",
+                            SecurityStamp = "b930d663-e291-4791-959c-66c654b9b97a",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         });
@@ -372,11 +372,11 @@ namespace BlogWebY.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("87b90c18-ddaf-47c5-b9a0-dcb5f0862c37"),
+                            Id = new Guid("ffd3c8c1-4aaa-4900-bc45-7f9b258691e9"),
                             CategoryId = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             Content = "Asp.net   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(7536),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 135, DateTimeKind.Local).AddTicks(6618),
                             ImageId = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             IsDeleted = false,
                             Title = "Asp.net Core Deneme Makalesi 1",
@@ -385,17 +385,32 @@ namespace BlogWebY.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("a2e783b2-672d-4036-824b-1ba6c7e01c79"),
+                            Id = new Guid("bcadd89e-3b50-40d0-82c7-1cdd23d7dd5f"),
                             CategoryId = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             Content = "Visual Studio   C# (C Sharp) is one of the object-oriented programming languages for the C family, which is presented along with the Microsoft.Net platform. As a syntax and platform, Javais closest to java. Many features in Java — simplicity, waste automatic cleaning mechanisms, and virtual machines (CLR) — are also available in this language. Only versions C# 2.0 and 3.0 give the language some dynamic properties. The latest version of C# was released on April 12, 2010. In addition to Microsoft.Net (Visual Studio), Mono and DotGNU are C# compilers with code open. This programming language was developed by Microsoft as a rival to Delphi. The language quickly identified itself and began to suppress Delphin from almost its early times. It retains many of java's characteristics. The last version of this language is C# 6.0, C# 7.0, C# 7.1, C# 7.2, C# 7.3, C# 8.0.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(7559),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 135, DateTimeKind.Local).AddTicks(6635),
                             ImageId = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             IsDeleted = false,
                             Title = "Visual Studio Deneme Makalesi 1",
                             UserId = new Guid("a0afafbd-64c6-4146-94d3-f81f6d752b7c"),
                             ViewCount = 15
                         });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.ArticleVisitor", b =>
+                {
+                    b.Property<Guid>("ArticleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("VisitorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArticleId", "VisitorId");
+
+                    b.HasIndex("VisitorId");
+
+                    b.ToTable("ArticleVisitors");
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Category", b =>
@@ -439,7 +454,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("730d1530-d1c7-4db1-8f8a-bb02b5fc107b"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(8150),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 136, DateTimeKind.Local).AddTicks(81),
                             IsDeleted = false,
                             Name = "ASP.NET Core"
                         },
@@ -447,7 +462,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("5cabf00c-6c1b-48a9-8bcc-7c04a45bf65f"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(8157),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 136, DateTimeKind.Local).AddTicks(92),
                             IsDeleted = false,
                             Name = "Visual Studio 2022"
                         });
@@ -498,7 +513,7 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("6edd6ca6-6eeb-43b2-9fb8-d9d44669ad8a"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(8569),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 136, DateTimeKind.Local).AddTicks(387),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false
@@ -507,11 +522,35 @@ namespace BlogWebY.Data.Migrations
                         {
                             Id = new Guid("103d6c6b-7542-4a13-afb0-f7e9f0e386b5"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 10, 3, 14, 46, 45, 126, DateTimeKind.Local).AddTicks(8575),
+                            CreatedDate = new DateTime(2024, 10, 12, 12, 52, 34, 136, DateTimeKind.Local).AddTicks(394),
                             FileName = "images/vstest",
                             FileType = "png",
                             IsDeleted = false
                         });
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.Visitor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IpAdress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserAgent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Visitors");
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.AppRoleClaim", b =>
@@ -601,9 +640,33 @@ namespace BlogWebY.Data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("BlogWebY.Entity.Entities.ArticleVisitor", b =>
+                {
+                    b.HasOne("BlogWebY.Entity.Entities.Article", "Article")
+                        .WithMany("ArticleVisitors")
+                        .HasForeignKey("ArticleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BlogWebY.Entity.Entities.Visitor", "Visitor")
+                        .WithMany("ArticleVisitors")
+                        .HasForeignKey("VisitorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Article");
+
+                    b.Navigation("Visitor");
+                });
+
             modelBuilder.Entity("BlogWebY.Entity.Entities.AppUser", b =>
                 {
                     b.Navigation("Articles");
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.Article", b =>
+                {
+                    b.Navigation("ArticleVisitors");
                 });
 
             modelBuilder.Entity("BlogWebY.Entity.Entities.Category", b =>
@@ -616,6 +679,11 @@ namespace BlogWebY.Data.Migrations
                     b.Navigation("Articles");
 
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("BlogWebY.Entity.Entities.Visitor", b =>
+                {
+                    b.Navigation("ArticleVisitors");
                 });
 #pragma warning restore 612, 618
         }
