@@ -14,5 +14,6 @@ namespace BlogWebY.Entity.DTOs.Articles
         public AppUser User { get; set; }
         public string CreatedBy { get; set; }
         public bool IsDeleted { get; set; }
+        public int ViewCount { get; set; }
     }
 }
